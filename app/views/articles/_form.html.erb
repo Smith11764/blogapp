@@ -1,0 +1,46 @@
+
+<%= form_for @article do |f| %>
+  <p>
+  <%= f.label(:text, "テキスト") %>
+  <%= f.text_field :text %><br>
+  </p>
+  <p>
+  <%= f.label(:image, "画像") %>
+  <%= f.text_field :image %><br>
+  </p>
+  <p>
+  <%= f.label(:Frame, "フレーム") %>
+  <%= f.text_field :Frame %><br>
+  </p>
+  <p>
+  <%= f.label(:Wheel, "ホイール") %>
+  <%= f.text_field :Wheel %><br>
+  </p>
+  <p>
+  <%= f.label(:FD, "FD") %>
+  <%= f.text_field :FD %><br>
+  </p>
+  <p>
+  <%= f.label(:RD, "RD") %>
+  <%= f.text_field :RD %><br>
+  </p>
+  <p>
+  <%= f.label(:Crank_set, "Crank_set") %>
+  <%= f.text_field :Crank_Set %><br>
+  </p>
+  <p>
+  <%= f.label(:Brake, "ブレーキ") %>
+  <%= f.text_field :Brake %><br>
+  </p>
+  <p>
+  <%= f.label(:Handle, "ハンドル") %>
+  <%= f.text_field :Handle %><br>
+  </p>
+  <p>
+  <%= f.label(:Stem, "ステム") %>
+  <%= f.text_field :Stem %><br>
+  </p>
+  <%= f.submit "投稿する"%>
+  </p>
+<% end %>
+
