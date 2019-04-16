@@ -610,4 +610,9 @@ ul li {
   }
 }
 
+.content_post, .text, .centered, .name {
+  width: 600px;
+  margin: 0 auto;
+}
+
 /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
